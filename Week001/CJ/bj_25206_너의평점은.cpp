@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    // fastcpp;
+    fastcpp;
     map<string,double> gradeToMark;
     string subjectName = "";
     double inputGrade = 0.0;
