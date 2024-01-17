@@ -20,7 +20,7 @@ int main(){
         min -= 45;
     }
 
-    cout << hour << " " << min << endl;
+    cout << hour << " " << min << "\n";
 
     return 0;
 }
