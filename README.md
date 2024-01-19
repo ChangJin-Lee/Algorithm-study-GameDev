@@ -3,8 +3,8 @@
 
 ## 진행
 
-- 1주차 - 입출력, 조건문, 반복문  
-- 2주차 - 문자열, 재귀  
+- [1주차 - 입출력, 조건문, 반복문](https://github.com/alttabsoft/algorithm-study/tree/main/Week001)
+- [2주차 - 문자열, 재귀](https://github.com/alttabsoft/algorithm-study/tree/main/Week002)
 - 3주차 - 스택, 큐, 덱  
 - 4주차 - 연결리스트  
 - 5주차 - 트리, 힙  
