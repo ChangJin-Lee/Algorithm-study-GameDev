@@ -9,3 +9,4 @@
 |백준 10798 세로읽기|문자열|https://www.acmicpc.net/problem/10798|
 |백준 1181 단어정렬|문자열|https://www.acmicpc.net/problem/1181|
 |백준 11729 하노이탑이동순서|재귀|https://www.acmicpc.net/problem/11729|
+|백준 25501 재귀의귀재|재귀|https://www.acmicpc.net/problem/25501|
