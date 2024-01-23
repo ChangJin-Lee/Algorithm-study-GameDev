@@ -15,12 +15,16 @@ int main(){
         cin >> cy_input;
         cin >> sd_input;
 
-        if(cy_input > sd_input){
-            sd_score -= cy_input;
-        }else if(cy_input < sd_input){
-            cy_score -= sd_input;
-        }else{
-            continue;
+        // if(cy_input > sd_input){
+        //     sd_score -= cy_input;
+        // }else if(cy_input < sd_input){
+        //     cy_score -= sd_input;
+        // }else{
+        //     continue;
+        // }
+        if (cy_input != sd_input)
+        {
+            cy_input > sd_input ? sd_score -= cy_input : cy_score -= sd_input;
         }
     }
 

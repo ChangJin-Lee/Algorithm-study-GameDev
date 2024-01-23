@@ -20,7 +20,10 @@ int main(){
     }
 
     for(int i = 1; i < degree.size(); i++){
-        printf("%.2f\n", (degree[i] - degree[i-1]));
+        // printf("%.2f\n", (degree[i] - degree[i-1]));
+        cout << fixed;
+        cout.precision(2);
+        cout << degree[i] - degree[i-1] << "\n";
     }
 
     return 0;
