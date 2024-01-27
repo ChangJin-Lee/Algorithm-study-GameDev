@@ -25,8 +25,5 @@ int main(){
         cout << v[i] << "\n";
     }
 
-    sorted_s = s;
-    sort(sorted_s.begin(), sorted_s.end());
-
     return 0;
 }
