@@ -16,11 +16,16 @@
 |백준 1766 문제집|스택,큐, 덱|https://www.acmicpc.net/problem/1766|
 |백준 1097 마법의문자열|스택,큐|https://www.acmicpc.net/problem/1097|
 
+
 ## Noah
 
-|제목|구분|url|
+| 제목 | 구분 | url |
 |:------:|:---:|:---:|
-||||
+| 백준 1874 스택수열 | 스택 | https://www.acmicpc.net/problem/1874 |
+| 백준 1966 프린터큐 | 큐 | https://www.acmicpc.net/problem/1966 |
+| 백준 2493 탑 | 스택 | https://www.acmicpc.net/problem/2493 |
+| 백준 5430 AC | 덱 | https://www.acmicpc.net/problem/5430 |
+| 백준 13335 트럭 | 큐 | https://www.acmicpc.net/problem/13335 |
 
 
 ## Santa
