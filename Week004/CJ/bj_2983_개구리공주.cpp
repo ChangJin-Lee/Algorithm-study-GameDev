@@ -34,52 +34,10 @@ int main()
         
     }
 
-    // for(auto k : movable)
-    // {
-        // cout << k.first << " " << "\n";
-        // sort(k.second.begin(), k.second.end());
-        // for (auto l : k.second)
-        // {
-        //     cout << "( " << l.first << ", " << l.second << " ) ";
-        // }
-        // cout << "\n";
-    // }
-
-    // for(auto k : movable2)
-    // {
-        // cout << k.first << " " << "\n";
-        // sort(k.second.begin(), k.second.end());
-        // for (auto l : k.second)
-        // {
-        //     cout << "( " << l.first << ", " << l.second << " ) ";
-        // }
-        // cout << "\n";
-    // }
-
-    // for(auto k : v)
-    // {
-    //     cout << k.first << " " << k.second << "\n";
-    // }
-
     for(int idx = 0; idx < k; idx++)
     {
         int x = cur.first;
         int y = cur.second;
-        // cout << "start =================================== \n";
-        // cout << input[idx] << "\n";
-        // cout << x << " " << y << "\n";
-
-        // for(auto k : movable)
-        // {
-        //     cout << get<0>(k) << " " << "\n";
-        //     cout << "( " << get<1>(k) << ", " << get<2>(k) << " ) \n";
-        // }
-
-        // for(auto k : movable2)
-        // {
-        //     cout << get<0>(k) << " " << "\n";
-        //     cout << "( " << get<1>(k) << ", " << get<2>(k) << " ) \n";
-        // }
 
         switch (input[idx])
         {
@@ -96,16 +54,6 @@ int main()
                         movable.erase({x+y,x,y});
                         cur = {get<1>(t), get<2>(t)};
                     }
-                    // else
-                    // {
-                    //     t = *prev(it);
-                    //     if(get<0>(t) == get<1>(t) - get<2>(t) && get<0>(t) == x-y)
-                    //     {
-                    //         movable2.erase({x-y,x,y});
-                    //         movable.erase({x+y,x,y});
-                    //         cur = {get<1>(t), get<2>(t)};
-                    //     }
-                    // }
                 }
             }
             break;
@@ -122,16 +70,6 @@ int main()
                         movable.erase({x+y,x,y});
                         cur = {get<1>(t), get<2>(t)};
                     }
-                    // else
-                    // {
-                    //     t = *next(it);
-                    //     if(get<0>(t) == get<1>(t) - get<2>(t) && get<0>(t) == x-y)
-                    //     {
-                    //         movable2.erase({x-y,x,y});
-                    //         movable.erase({x+y,x,y});
-                    //         cur = {get<1>(t), get<2>(t)};
-                    //     }
-                    // }
                 }
             }
             break;
@@ -148,16 +86,6 @@ int main()
                         movable.erase({x+y,x,y});
                         cur = {get<1>(t), get<2>(t)};
                     }
-                    // else
-                    // {
-                    //     t = *prev(it);
-                    //     if(get<0>(t) == get<1>(t) + get<2>(t) && get<0>(t) == x+y)
-                    //     {
-                    //         movable2.erase({x-y,x,y});
-                    //         movable.erase({x+y,x,y});
-                    //         cur = {get<1>(t), get<2>(t)};
-                    //     }
-                    // }
                 }
             }
             break;
@@ -174,16 +102,6 @@ int main()
                         movable.erase({x+y,x,y});
                         cur = {get<1>(t), get<2>(t)};
                     }
-                    // else
-                    // {
-                    //     t = *next(it);
-                    //     if(get<0>(t) == get<1>(t) + get<2>(t)&& get<0>(t) == x+y)
-                    //     {
-                    //         movable2.erase({x-y,x,y});
-                    //         movable.erase({x+y,x,y});
-                    //         cur = {get<1>(t), get<2>(t)};
-                    //     }
-                    // }
                 }
             }
             break;
