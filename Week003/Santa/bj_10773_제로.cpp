@@ -20,9 +20,7 @@ int main()
         n == 0 ? myStack.pop() : myStack.push(n);
     }
 
-    k = myStack.size();
-
-    while(k--)
+    while(!myStack.empty())
     {
         result += myStack.top();
         myStack.pop();
