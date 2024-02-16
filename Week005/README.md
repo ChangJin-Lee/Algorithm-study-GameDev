@@ -8,7 +8,7 @@
 |:------:|:---:|:---:|
 |백준 1991 트리순회|트리|https://www.acmicpc.net/submit/1991|
 |백준 16404 주식회사승범이네|트리|https://www.acmicpc.net/submit/16404|
-
+|백준 3584 가장가까운공통조상|트리|https://www.acmicpc.net/submit/3584|
 
 ## Noah
 
