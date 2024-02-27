@@ -10,7 +10,7 @@
 |백준 16404 주식회사승범이네|트리,힙|https://www.acmicpc.net/problem/16404|
 |백준 3584 가장가까운공통조상|트리|https://www.acmicpc.net/problem/3584|
 |백준 1167 트리의지름|트리,힙|https://www.acmicpc.net/problem/1167|
-|백준 16404 연결요소의개수|트리|https://www.acmicpc.net/problem/16404|
+|백준 11724 연결요소의개수|트리|https://www.acmicpc.net/problem/11724|
 
 ## Noah
 
