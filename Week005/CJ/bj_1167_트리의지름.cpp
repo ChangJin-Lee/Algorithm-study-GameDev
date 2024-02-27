@@ -35,13 +35,15 @@ int main()
         }
     }
 
-    
     dfs(1, 0);
+
     for(int i = 0; i < n+1; i++)
     {
         visit[i] = false;
     }
+
     dfs(maxVertex,0);
+    
     cout << maxEdge;
 }
 

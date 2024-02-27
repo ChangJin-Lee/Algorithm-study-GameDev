@@ -12,8 +12,7 @@ void FindNCA(vector<pair<int, vector<int>>> &tree, int A,int B);
 int main()
 {
     fastcpp;
-    int T, N;
-    int A, B;
+    int T, N, A, B;
 
     cin >> T;
 
