@@ -114,7 +114,7 @@ int main()
     myList.clear();*/
 
     vector<node> myList(1000001);
-    vector<int> stations; 
+
 
     int stationNumber, station, constructionCount = 0;
     int head, tail, prevNum = 0;
