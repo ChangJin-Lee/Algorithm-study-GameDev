@@ -16,7 +16,9 @@
 
 | 제목 | 구분 | url |
 |:------:|:---:|:---:|
-||||
+|백준 1240 노드 사이의 거리|트리|https://www.acmicpc.net/problem/1240|
+|백준 1991 트리순회|트리|https://www.acmicpc.net/problem/1991|
+|백준 11725 트리의 부모 찾기|트리|https://www.acmicpc.net/problem/11725|
 
 
 ## Santa
