@@ -7,7 +7,7 @@
 - [2주차 - 문자열, 재귀](https://github.com/alttabsoft/algorithm-study/tree/main/Week002)
 - [3주차 - 스택, 큐, 덱](https://github.com/alttabsoft/algorithm-study/tree/main/Week003)
 - [4주차 - 연결리스트](https://github.com/alttabsoft/algorithm-study/tree/main/Week004)  
-- 5주차 - 트리, 힙  
+- [5주차 - 트리, 힙](https://github.com/alttabsoft/algorithm-study/tree/main/Week005)
 - 6주차 - map, set  
 - 7주차 - BFS, DFS, 이분탐색  
 - 8주차 - 브루트포스  
