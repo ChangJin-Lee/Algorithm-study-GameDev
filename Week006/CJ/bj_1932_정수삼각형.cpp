@@ -31,7 +31,7 @@ int main()
 
         for(int j = 1; j < i; j++)
         {
-            dp[j] = max(pastDp[j-1] + v[j], pastDp[j] + v[j]);
+            dp[j] =  v[j] + max(pastDp[j-1], pastDp[j]);
         }
 
         pastDp = dp;
