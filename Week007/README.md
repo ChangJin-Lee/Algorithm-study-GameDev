@@ -24,3 +24,4 @@
 |제목|구분|url|
 |:------:|:---:|:---:|
 |백준 14716 현수막|BFS,DFS|https://www.acmicpc.net/problem/14716|
+|백준 15723 n단 논법|BFS,DFS|https://www.acmicpc.net/problem/15723|
