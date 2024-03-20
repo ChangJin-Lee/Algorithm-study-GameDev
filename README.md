@@ -11,7 +11,7 @@
 - [6주차 - DP(다이내믹프로그래밍)](https://github.com/alttabsoft/algorithm-study/tree/main/Week006)
 - [7주차 - BFS, DFS, 이분탐색](https://github.com/alttabsoft/algorithm-study/tree/main/Week007) 
 - [8주차 - 브루트포스](https://github.com/alttabsoft/algorithm-study/tree/main/Week008)  
-- 9주차 -정렬, 그리디  
+- [9주차 -정렬, 그리디](https://github.com/alttabsoft/algorithm-study/tree/main/Week009)  
 - 10주차 - 투 포인터  
 - 11주차 - 구현  
 - 12주차 - 프로그래머스 코딩테스트 고득점 Kit (dfs, bfs)  
