@@ -32,6 +32,7 @@ int main()
                 break;
             }
         }
+        
         if(!check)
             dp.push_back(input);
         else
