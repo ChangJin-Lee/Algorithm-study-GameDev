@@ -16,7 +16,9 @@
 
 | 제목 | 구분 | url |
 |:------:|:---:|:---:|
-||||
+|백준 1822 차집합|이분탐색|https://www.acmicpc.net/problem/1822|
+|백준 1926 그림|BFS, DFS|https://www.acmicpc.net/problem/1926|
+|백준 14921 용액 합성하기|이분탐색|https://www.acmicpc.net/problem/14921|
 
 
 ## Santa
