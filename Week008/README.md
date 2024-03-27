@@ -30,3 +30,4 @@
 |백준 15665 N과 M(11)|브루트포스|https://www.acmicpc.net/problem/15665|
 |백준 18429 근손실|브루트포스|https://www.acmicpc.net/problem/18429|
 |백준 19592 장난감 경주|브루트포스|https://www.acmicpc.net/problem/19592|
+|백준 16938 캠프 준비|브루트포스|https://www.acmicpc.net/problem/16938|

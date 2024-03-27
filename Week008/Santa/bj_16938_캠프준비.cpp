@@ -1,44 +1,42 @@
-#include <iostream> 
-#include <map> 
+#include <iostream>
 #include <vector>
+#include <limits>
 
 using namespace std;
 
 
-int n, l ,r, x, d, num;
+int n, l ,r, x, cnt; 
+int checkedNums [16];
+vector<int> problems;
 
-int minP, maxP; 
-vector<pair<int, bool> > problems;
 
-
-void collectProblem(int index)
+void collectProblem(int idxP, int minNum, int maxNum, int ttl)
 {
-
-    // 문제 난이도의 합이 l보다 작거나 r보다 크거나 
-    if(d < l || d > r) return;
-
-    // 쉬운 난이도와 어려운 난이도의 차이가 x보다 작을 경우
-    if(maxP - minP < x) return;
-    
-    // 모든 조건에 맞았을 때 문제 출제 가짓수 1 증가
-    num++;
-    
-    return;
-
-    for(int idx = 0; idx < problems.size(); idx++)
+    // 문제의 합이 R보다 클 경우 탈출
+    if(ttl > r) 
     {
-        // 이미 확인한 문제는 넘기기 
-        if(problems[idx].second) continue;
-
-        collectedProblems.push_back(problems[idx].first);   
-        problems[idx].second = true;
-
-        collectProblem(index++);
-
-        problems[idx].second = false;
-        collectedProblems.pop_back();
+        return;
+    }
+    //문제의 합이 L보다 클 경우 확인
+    if(ttl >= l)
+    {
+        // 쉬운 난이도와 어려운 난이도의 차이가 x보다 클 경우
+        if(maxNum - minNum >= x)
+        {
+            cnt++;
+        }
     }
 
+    // 시작 인덱스부터 다음 인덱스들의 문제들을 확인한다. 
+    for(int idx = idxP; idx < n; idx++)
+    {
+         if(checkedNums[idx]) continue;
+
+        checkedNums[idx] = true;
+        // 현재 확인한 인덱스
+        collectProblem(idx + 1, min(minNum, problems[idx]), max(maxNum, problems[idx]), ttl + problems[idx]);
+        checkedNums[idx] = false;
+    }
 }
 
 
@@ -46,18 +44,16 @@ int main()
 {
     cin >> n >> l >> r >> x;
 
+    problems.assign(n, 0);
+
     for(int idx = 0; idx < n; idx++)
     {
-        cin >> num;
-        problems.push_back({num, false});
+        cin >> problems[idx];
     }   
-
-    num = 0;
-
-    // 문제를 난이도 순서대로 정렬
-    sort(problems.begin(), problems.end());
-
-    collectProblem(0);
+   
+    collectProblem(0, INT_MAX, 0, 0);
+ 
+    cout << cnt;
 
     return 0;
 }
