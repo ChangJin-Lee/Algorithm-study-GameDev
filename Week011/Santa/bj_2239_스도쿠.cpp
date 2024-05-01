@@ -80,7 +80,7 @@ int main()
     for(int y = 0; y < 9; ++y)
     {
         string nums;
-        getline(cin, nums);
+        cin >> nums;
 
         for(int x = 0; x < 9; ++x)
         {
