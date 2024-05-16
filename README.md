@@ -13,10 +13,10 @@
 - [8주차 - 브루트포스](https://github.com/alttabsoft/algorithm-study/tree/main/Week008)  
 - [9주차 -정렬, 그리디](https://github.com/alttabsoft/algorithm-study/tree/main/Week009)  
 - [10주차 - 투 포인터](https://github.com/alttabsoft/algorithm-study/tree/main/Week010)  
-- 11주차 - 구현  
-- 12주차 - 프로그래머스 코딩테스트 고득점 Kit (dfs, bfs)  
-- 13주차 - 프로그래머스 코딩테스트 고득점 Kit (dfs, bfs)  
-- 14주차 - 프로그래머스 코딩테스트 고득점 Kit (해쉬)  
+- [11주차 - 구현](https://github.com/alttabsoft/algorithm-study/tree/main/Week011)    
+- [12주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week012)    
+- [13주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week013)    
+- [14주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week014)  
 - 15주차 이후 - 삼성기출, 카카오기출, 탐색문제 등
 
 
