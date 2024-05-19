@@ -17,21 +17,20 @@ class SearchTarget
         this->target = target; 
     }
  
-    void DFS(int idx, int result);
+    void DFS(int depth, int value);
 };
 
-void SearchTarget::DFS(int idx, int result)
+void SearchTarget::DFS(int depth, int value)
 {
-    if(idx == numbers->size())
+    if(depth == numbers->size())
     {
-        if(result == target) 
+        if(value == target) 
             answer += 1;
         return; 
     }
 
-    DFS(idx + 1, result + (*numbers)[idx]);
-    DFS(idx + 1, result - (*numbers)[idx]);
-    return;
+    DFS(depth + 1, value + (*numbers)[depth]);
+    DFS(depth + 1, value - (*numbers)[depth]);
 }
 
 
