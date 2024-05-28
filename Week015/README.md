@@ -14,7 +14,8 @@
 
 | 제목 | 구분 | url |
 |:------:|:---:|:---:|
-||||
+|프로그래머스 영어 끝말잇기|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12981|
+|프로그래머스 n^2 배열 자르기|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/87390|
 
 ## Santa
 
