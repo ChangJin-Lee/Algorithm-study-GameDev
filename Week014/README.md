@@ -6,8 +6,8 @@
 
 |제목|구분|url|
 |:------:|:---:|:---:|
-|프로그래머스 미로탈출|Levle 2|https://school.programmers.co.kr/learn/courses/30/lessons/159993|
-|프로그래머스 리코쳇로봇|Levle 2|https://school.programmers.co.kr/learn/courses/30/lessons/169199|
+|프로그래머스 미로탈출|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/159993|
+|프로그래머스 리코쳇로봇|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/169199|
 
 ## Noah
 
