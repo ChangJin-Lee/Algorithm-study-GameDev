@@ -17,7 +17,7 @@
 - [12주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week012)    
 - [13주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week013)    
 - [14주차 - 프로그래머스 level2](https://github.com/alttabsoft/algorithm-study/tree/main/Week014)  
-- 15주차 이후 - 삼성기출, 카카오기출, 탐색문제 등
+- [15주차 - 프로그래머스 level2-level3](https://github.com/alttabsoft/algorithm-study/tree/main/Week015)
 
 
 ## Current Member
