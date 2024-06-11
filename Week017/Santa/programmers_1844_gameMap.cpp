@@ -1,11 +1,13 @@
-#include<vector>
 #include<queue>
+#include<vector>
+
 using namespace std;
 
-class FindWay
+int solution(vector<vector<int> > maps)
 {
-    private: 
-    vector<vector<bool>> visited; 
+    int answer = 0;
+    pair<int, int> target = {maps.size() - 1, maps[0].size() - 1};
+    vector<vector<bool>> visited(maps.size(), vector<bool>(maps[0].size(), false)); 
     vector<pair<int, int>> dir = {
         {-1, 0}, 
         {1, 0}, 
@@ -13,66 +15,35 @@ class FindWay
         {0, 1}
     };
     queue<pair<int,int>> myQ;
-    int answer = -1;
-    pair<int, int> cur = {0,0};
-    pair<int, int> target; 
-    pair<int, int> addPair(pair<int,int> a, pair<int,int> b)
-    {
-      return make_pair(a.first + b.first, a.second + b.second);  
-    };
     
-    public: 
-    FindWay(pair<int,int> endPoint)
-    {
-        this->target = make_pair(endPoint.first - 1, endPoint.second - 1);
-        this->visited.resize(endPoint.first, vector<bool>(endPoint.second, 0));
-    };
-    void BFS(vector<vector<int>>& maps);
-    int getAnswer(){ return answer; };
-};
-
-void FindWay::BFS(vector<vector<int>>& maps)
-{
-    myQ.push(cur);
+    myQ.push({0, 0});
     
     while(!myQ.empty())
     {                
         pair<int, int> pos = myQ.front();
         myQ.pop();
-        visited[pos.first][pos.second] = true;
         
-        for(auto d : dir)
+        for(pair<int,int> d : dir)
         {
-            pair <int, int> temp = addPair(pos, d); 
+            pair <int, int> temp = {pos.first + d.first, pos.second + d.second}; 
+            
             if(temp.first < 0 || temp.first > target.first || 
                temp.second < 0 || temp.second > target.second)
                 continue;
-         
-            if(temp == target)
-            {
-                answer = maps[pos.first][pos.second] + 1;
-                return;
-            }
             
             if(!visited[temp.first][temp.second] && maps[temp.first][temp.second])
             {
+                if(temp == target)
+                {
+                    return maps[pos.first][pos.second] + 1;
+                }
+
                 myQ.push(temp);
                 visited[temp.first][temp.second] = true;
                 maps[temp.first][temp.second] = maps[pos.first][pos.second] + 1;
             }
         }
     }
-} 
-
-int solution(vector<vector<int> > maps)
-{
-    int answer = 0;
-    pair<int, int> target(maps.size(), maps[0].size());
     
-    FindWay finder(target);
-    
-    finder.BFS(maps);
-    answer = finder.getAnswer();
-    
-    return answer;
+    return -1;
 }
