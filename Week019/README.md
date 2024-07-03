@@ -14,7 +14,9 @@
 
 | 제목 | 구분 | url |
 |:------:|:---:|:---:|
-||||
+|Programmers_오픈채팅방|구현|https://school.programmers.co.kr/learn/courses/30/lessons/42888|
+|Programmers_등굣길|DP|https://school.programmers.co.kr/learn/courses/30/lessons/42898|
+|Programmers_주차요금계산|구현|https://school.programmers.co.kr/learn/courses/30/lessons/92341|
 
 ## Santa
 
