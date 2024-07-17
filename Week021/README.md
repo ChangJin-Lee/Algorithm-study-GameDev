@@ -6,7 +6,9 @@
 
 |제목|구분|url|
 |:------:|:---:|:---:|
-||||
+|백준 숨바꼭질|dp|https://www.acmicpc.net/problem/1697|
+|hackerRank 3DsurfaceArea|구현|https://www.hackerrank.com/challenges/3d-surface-area/problem?isFullScreen=true|
+|hackerRank ConnectedCellsinaGrid|bfs|https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem?isFullScreen=true|
 
 ## Noah
 
