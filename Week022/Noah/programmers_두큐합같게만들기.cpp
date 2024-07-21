@@ -48,3 +48,46 @@ int solution(vector<int> queue1, vector<int> queue2) {
     
     return -1;
 }
+
+// 투포인터 풀이
+int solution(vector<int> queue1, vector<int> queue2) {
+    int answer = 0;
+    long sum = 0;
+    long long targetSum = 0;
+    
+    vector<int> v;
+    
+    for(int i = 0; i < queue1.size(); ++i){
+        v.push_back(queue1[i]);
+        targetSum += queue1[i];
+    }
+    
+    sum = targetSum;
+    
+    for(int i = 0; i < queue2.size(); ++i){
+        v.push_back(queue2[i]);
+        targetSum += queue2[i];
+    }
+    
+    targetSum /= 2;
+
+    int l = 0, r = queue1.size() - 1;
+    
+    while(sum != targetSum){
+        if(sum > targetSum){
+            sum -= v[l];
+            l++;
+            answer++;
+        }else{
+            r++;
+            sum += v[r % v.size()];
+            answer++;
+        }
+        
+        if(answer >= queue1.size() * 3){
+            return -1;
+        }
+    }
+    
+    return answer;
+}
