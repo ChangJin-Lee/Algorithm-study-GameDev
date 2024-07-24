@@ -1,4 +1,4 @@
-21주차 - 프로그래머스, 해커랭크 코딩테스트
+22주차 - 프로그래머스, 해커랭크, 리트코드
 
 </br>
 
@@ -6,7 +6,9 @@
 
 |제목|구분|url|
 |:------:|:---:|:---:|
-||||
+|hackerrank_ACMICPCTeam|Implementation|https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true|
+|hackerrank_TaumandBday|Implementation|https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true|
+|hackerrank_TheTimeinWords|Implementation|https://www.hackerrank.com/challenges/the-time-in-words/problem?isFullScreen=true|
 
 ## Noah
 
