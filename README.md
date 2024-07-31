@@ -11,6 +11,7 @@
 
 ### 심화학습
 
+- **2024.07.17 ~ 2024.07.23** [22주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week022)
 - **2024.07.10 ~ 2024.07.16** [21주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week021)
 - **2024.07.02 ~ 2024.07.09** [20주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week020)
 - **2024.06.26 ~ 2024.07.02** [19주차 - 프로그래머스 level2-level3, hackerrank, 백준](https://github.com/ChangJin-Lee/algorithm-study/tree/main/Week019)
