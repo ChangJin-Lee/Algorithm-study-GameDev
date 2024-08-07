@@ -6,7 +6,9 @@
 
 |제목|구분|url|
 |:------:|:---:|:---:|
-||||
+|hackerrank Count Luck|BFS|https://www.hackerrank.com/challenges/count-luck/problem?isFullScreen=true|
+|hackerrank Cut the Tree|DFS|https://www.hackerrank.com/challenges/cut-the-tree/problem?isFullScreen=true|
+|hackerrank KnightL on a Chessboard|BFS|https://www.hackerrank.com/challenges/knightl-on-chessboard/problem?isFullScreen=true|
 
 ## Noah물
 
