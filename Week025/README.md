@@ -6,7 +6,9 @@
 
 |제목|구분|url|
 |:------:|:---:|:---:|
-||||
+|hackerrank_Encryption|구현|https://www.hackerrank.com/challenges/encryption/problem|
+|programmers_인사고과|sorting|https://school.programmers.co.kr/learn/courses/30/lessons/152995|
+|hackerrank_Journeytothemoon|그래프|https://www.hackerrank.com/challenges/journey-to-the-moon/problem|
 
 ## Noah
 
