@@ -14,7 +14,7 @@
 |:------:|:---:|:---:|
 |programmers_보석쇼핑|투포인터|https://school.programmers.co.kr/learn/courses/30/lessons/67258|
 |programmers_문자열압축|완전탐색|https://school.programmers.co.kr/learn/courses/30/lessons/60057|
-|leetcode_264_UglyNumber2|DP|https://arc.net/l/quote/zkdtxqmc|
+|leetcode_264_UglyNumber2|DP|https://leetcode.com/problems/ugly-number-ii/|
 
 ## Santa
 
