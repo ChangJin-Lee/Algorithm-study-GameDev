@@ -10,7 +10,7 @@
 |hackerrank Cut the Tree|DFS|https://www.hackerrank.com/challenges/cut-the-tree/problem?isFullScreen=true|
 |hackerrank KnightL on a Chessboard|BFS|https://www.hackerrank.com/challenges/knightl-on-chessboard/problem?isFullScreen=true|
 
-## Noah물
+## Noah
 
 | 제목 | 구분 | url |
 |:------:|:---:|:---:|
