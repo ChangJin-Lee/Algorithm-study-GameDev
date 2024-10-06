@@ -1,5 +1,13 @@
 # algorithm-study
-엄근진 알고리즘 스터디 (매주 수요일 8 p.m.)
+엄근진 C++ 알고리즘 스터디 (매주 수요일 8 p.m.)
+
+## 멤버
+
+|이름|역할|GitHub|
+|---|---|---|
+|창진|스터디장|[@ChangJin-Lee](https://github.com/ChangJin-Lee)|
+|지수|스터디원|[@ChrisP-00](https://github.com/ChrisP-00)|
+|승용|스터디원|[@dtd1232](https://github.com/dtd1232)|
 
 ## 설명
 
@@ -11,6 +19,11 @@
 
 ### 심화학습
 
+- **2024.08.24 ~ 현재**  회사 실전 코딩테스트 진행
+- **2024.08.14 ~ 2024.08.21** [26주차 - 프로그래머스, 리트코드, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week026)
+- **2024.08.07 ~ 2024.08.13** [25주차 - 프로그래머스, 리트코드, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week025)
+- **2024.07.31 ~ 2024.08.06** [24주차 - 프로그래머스, 리트코드, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week024)
+- **2024.07.24 ~ 2024.07.30** [23주차 - 프로그래머스, 리트코드, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week023)
 - **2024.07.17 ~ 2024.07.23** [22주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week022)
 - **2024.07.10 ~ 2024.07.16** [21주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week021)
 - **2024.07.02 ~ 2024.07.09** [20주차 - 프로그래머스, 리트코드, hackerrank, 백준](https://github.com/alttabsoft/algorithm-study/tree/main/Week020)
@@ -47,14 +60,6 @@
 - **2024.01.03 ~ 2024.01.09** [1주차 - 입출력, 조건문, 반복문](https://github.com/ChangJin-Lee/algorithm-study/tree/main/Week001)
 
 ---
-
-## Current Member
-
-|이름|GitHub|
-|---|---|
-|창진|[@ChangJin-Lee](https://github.com/ChangJin-Lee)|
-|산타|[@ChrisP-00](https://github.com/ChrisP-00)|
-|노아|[@dtd1232](https://github.com/dtd1232)|
 
 1) 주 마다 돌아가면서 한 명씩 이번 주 주제 이론에 대해 발표 -> 발표 내용은 깃 허브에 마크다운 파일로 올려주면 같이 보면서 듣기
 2) 저번 주에 풀었던 문제 풀이 공유 및 토의
