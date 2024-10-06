@@ -52,7 +52,7 @@
 
 |이름|GitHub|
 |---|---|
-|씨제이|[@ChangJin-Lee](https://github.com/ChangJin-Lee)|
+|창진|[@ChangJin-Lee](https://github.com/ChangJin-Lee)|
 |산타|[@ChrisP-00](https://github.com/ChrisP-00)|
 |노아|[@dtd1232](https://github.com/dtd1232)|
 
